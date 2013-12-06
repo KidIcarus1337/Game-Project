@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>First Game Project</title>
+        <link type="text/css" rel="stylesheet" href="styling/game.css" />
+        <link type="image/favicon" rel="icon" href="images/wrench.jpg" />
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script type="text/javascript" src="scripts/game.js"></script>
+    </head>
+    <body>
+        <div id="dimmer"></div>
+        <img id="left_wallpaper" src="images/side_wallpaper_left.jpg" />
+        <img id="right_wallpaper" src="images/side_wallpaper_right.jpg" />
+        <div id="layout">
+            <div id="header">
+                First Game Project
+            </div>
+            <div id="log" class="left_column">
+                <textarea disabled></textarea>
+            </div>
+            <div id="items" class="right_column">
+                <div class="div_title">Items</div>
+            </div>
+            <input type="text" id="input" class="left_column" disabled />
+            <div id="options" class="right_column">
+                <div class="div_title">Options</div>
+                <div id="save_button" class="slot">Save</div>
+                <div id="load_button" class="slot">Load</div>
+                <div id="settings_button" class="slot">Settings</div>
+            </div>
+        </div>
+        <div id="settings">
+            <div class="div_title">Settings</div>
+            <div id="left_input">
+                <div id="auto_skip_div">
+                    Auto-Skip: <input type="checkbox" id="auto_skip" />
+                </div>
+                <div id="log_sound_effect_div">
+                    Log Sound Effect: <input type="checkbox" id="log_sound_effect" />
+                </div>
+                <div id="log_speed_div">
+                    Log Speed: <input type="range" id="log_speed" min="60" max="200" step="10" value="180" />
+                </div>
+            </div>
+            <div id="right_input">
+                <div id="auto_save_div">
+                    Auto-Save: <input type="checkbox" id="auto_save" checked />
+                </div>
+                <div id="log_clear_div">
+                    Log Clear: <input type="checkbox" id="log_clear" />
+                </div>
+                <div id="hide_scrollbar_div">
+                    Hide Scrollbar: <input type="checkbox" id="hide_scrollbar" />
+                </div>
+            </div>
+        </div>
+        <div id="footer">Developed by kidicarus1337</div>
+    </body>
+</html>

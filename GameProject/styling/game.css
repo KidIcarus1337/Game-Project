@@ -1,0 +1,185 @@
+body {
+    background-color: black;
+    color: #4D94FF;
+    font-family: Andale Mono, Sans-Serif;
+}
+
+.left_column {
+    border-image: url("../images/metal_border.jpg") 20 20 20 20 round;
+    border-width: 15px;
+    width: 850px;
+    position: relative;
+    float: left;
+}
+
+.right_column {
+    border-image: url("../images/metal_border.jpg") 20 20 20 20 round;
+    border-width: 15px;
+    width: 280px;
+    position: relative;
+    float: right;
+    text-align: center;
+}
+
+.div_title {
+    height: 25px;
+    font-size: 18px;
+    padding-top: 6px;
+    border-bottom: solid 1px #666666;
+    margin: 0 auto;
+    width: 240px;
+    text-align: center;
+}
+
+.slot {
+    height: 30px;
+    width: 280px;
+    background-image: url("../images/div_background.jpg");
+    border-top: 1px solid #272727;
+    border-bottom: 1px solid #272727;
+    padding-top: 12px;
+    position: relative;
+    margin: 0 auto;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#left_input {
+    float: left;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+#left_input div {
+    text-align: right;
+    padding-bottom: 10px;
+}
+
+#right_input {
+    float: right;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+#right_input div {
+    text-align: right;
+    padding-bottom: 10px;
+}
+
+#left_wallpaper {
+    left: 0;
+    height: 800px;
+    width: 340px;
+    position: absolute;
+}
+
+#right_wallpaper {
+    right: 0;
+    height: 800px;
+    width: 340px;
+    position: absolute;
+}
+
+#layout {
+    position: relative;
+    height: 860px;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: black;
+    border-left: solid 1px #666666;
+    border-right: solid 1px #666666;
+    padding: 0 5px 0 5px;
+}
+
+#header {
+    height: 40px;
+    background-image: url("../images/div_background.jpg");
+    border: 5px solid #272727;
+    border-radius: 4px;
+    padding-top: 12px;
+    text-align: center;
+    font-size: 27px;
+    word-spacing: 5px;
+}
+
+#log {
+    height: 550px;
+    top: 10px;
+}
+
+#log textarea {
+    height: 545px;
+    width: 845px;
+    resize: none;
+    background-color: black;
+    border: 0;
+    color: #4D94FF;
+    font: 16px Andale Mono, Sans-Serif;
+}
+
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { width: 8px; }
+::-webkit-scrollbar-track-piece { background-color: #212121; width: 8px; border-radius: 10px;}
+::-webkit-scrollbar-thumb { background-color: #1C355C; width: 8px; border-radius: 10px;}
+
+#items {
+    height: 550px;
+    top: 10px;
+}
+
+#input {
+    height: 25px;
+    background-color: black;
+    top: 20px;
+    color: #4D94FF;
+    font: 16px Andale Mono, Sans-Serif;
+}
+
+input:focus {
+    outline: none;
+}
+
+#options {
+    height: 170px;
+    top: 20px;
+}
+
+#settings {
+    background-image: url("../images/div_background.jpg");
+    position: absolute;
+    display: none;
+    height: 150px;
+    width: 480px;
+    top: 300px;
+    left: 684px;
+    border-image: url("../images/metal_border.jpg") 20 20 20 20 round;
+    border-width: 15px;
+    z-index: 2;
+}
+
+#footer {
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    padding-top: 20px;
+}
+
+#dimmer {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: none;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+#log_speed {
+    width: 90px;
+}
